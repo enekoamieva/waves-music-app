@@ -1,4 +1,7 @@
-# Getting Started with Create React App
+# React Music Player App
+Proyecto creado con React para crear un reproductor de música.
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
