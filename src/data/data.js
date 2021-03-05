@@ -1,44 +1,44 @@
 import { v4 as uuidv4 } from "uuid";
 
-function chillHop() {
+function rockMusic() {
     return [
         {
-            name: "Botanic Panic",
+            name: "Sympathy for the Devil",
             cover:
-                "https://image.api.playstation.com/vulcan/img/cfn/11307fd0s0uyV-ba4dy5E9qskf6CIntl28sAerYTFbYC7vPUBrfgp7zokliHVbVoJ5ghylOBamo2Q2i5pbEYxQKFnSsiLHaY.png",
-            artist: "Cuphead",
-            audio: "https://archive.org/download/CupheadBotanicPanicMusic/Cuphead%20-%20Botanic%20Panic%20-%20Music.mp3",
-            color: ["#FFD11A", "#659FBE"],
+                "https://www.nacionrock.com/wp-content/uploads/The-Rolling-Stones.jpg",
+            artist: "The Rolling Stones",
+            audio: "https://enekoamieva.com/musica/sympathyforthedevil.mp3",
+            color: ["#E6C693", "#C52525"],
             id: uuidv4(),
             active: false,
         },
         {
-            name: "Nightfall",
+            name: "Rock the Casbah",
             cover:
-                "https://chillhop.com/wp-content/uploads/2020/07/ef95e219a44869318b7806e9f0f794a1f9c451e4-1024x1024.jpg",
-            artist: "Aiguille",
-            audio: "https://mp3.chillhop.com/serve.php/?mp3=9148",
-            color: ["#EF8EA9", "#ab417f"],
+                "https://img.discogs.com/_e8Lrc1W01_pK21AQRy182aD3Pw=/fit-in/600x601/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-215726-1586348057-1385.jpeg.jpg",
+            artist: "The Clash",
+            audio: "https://enekoamieva.com/musica/rockthecasbah.mp3",
+            color: ["#D4061B", "#333"],
             id: uuidv4(),
             active: false,
         },
         {
-            name: "Reflection",
+            name: "Wrong'Em Boyo",
             cover:
-                "https://chillhop.com/wp-content/uploads/2020/07/ff35dede32321a8aa0953809812941bcf8a6bd35-1024x1024.jpg",
-            artist: "Swørn",
-            audio: "https://mp3.chillhop.com/serve.php/?mp3=9228",
-            color: ["#CD607D", "#c94043"],
+                "https://johntomsett.files.wordpress.com/2019/12/r-378698-1407158809-2608.jpeg.jpg",
+            artist: "The Clash",
+            audio: "https://enekoamieva.com/musica/wrongemboyo.mp3",
+            color: ["#F49AB6", "#01AF68"],
             id: uuidv4(),
             active: false,
         },
         {
-            name: "Under the City Stars",
+            name: "The real me",
             cover:
-                "https://chillhop.com/wp-content/uploads/2020/09/0255e8b8c74c90d4a27c594b3452b2daafae608d-1024x1024.jpg",
-            artist: "Aso, Middle School, Aviino",
-            audio: "https://mp3.chillhop.com/serve.php/?mp3=10074",
-            color: ["#205950", "#2ab3bf"],
+                "https://upload.wikimedia.org/wikipedia/en/8/8a/Quadrophenia_%28album%29.jpg",
+            artist: "The Who",
+            audio: "https://enekoamieva.com/musica/therealme.mp3",
+            color: ["#333", "#696969"],
             id: uuidv4(),
             active: false,
         },
@@ -46,4 +46,4 @@ function chillHop() {
     ];
 }
 
-export default chillHop;
+export default rockMusic;
